@@ -1,0 +1,56 @@
+.h2-main {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.texto-donativos {
+    font-size: map-get($medidas-font-size,texto);
+    color: rgb(8, 28, 159);
+    margin-left: 20px;
+}
+
+.h3-deposito {
+    color: rgb(248, 52, 3);
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 220px;
+}
+
+#texto-deposito {
+    color: #000;
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: 300px;
+}
+
+#numero-deposito {
+    color: rgb(23, 7, 252);
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 250px;
+}
+
+#texto-deposito2 {
+    @extend #texto-deposito;
+    margin-left: 200px;
+}
+
+#texto-deposito3 {
+    @extend #texto-deposito;
+    font-weight: 900;
+    margin-left: 100px;
+}
+
+#numero-deposito2 {
+    color: rgb(23, 7, 252);
+   @extend #numero-deposito; 
+}
+
+#img-deposito {
+    width: 430px;
+    height: 430px;
+    margin-top: 30px;
+}

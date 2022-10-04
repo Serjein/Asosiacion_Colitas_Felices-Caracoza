@@ -1,0 +1,319 @@
+@charset "UTF-8";
+#header {
+  width: 100%;
+  height: 15vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#007991), to(#63d1b0));
+  background: linear-gradient(180deg, #007991, #63d1b0);
+}
+#header .row div a #img-logo {
+  margin-top: 10px !important;
+  width: 70px !important;
+  height: 70px !important;
+}
+#header .row div #titulo {
+  font-size: 27px !important;
+  color: white !important;
+  margin-top: 25px;
+}
+#header .navbar {
+  font-size: 15px !important;
+  margin-top: 48px !important;
+  margin-left: 150px !important;
+}
+#header a.nav-link {
+  color: rgb(133, 8, 122);
+}
+#header a.nav-link.active {
+  color: rgb(253, 252, 253);
+}
+
+.dropdown-item {
+  color: rgb(133, 8, 122);
+}
+
+main {
+  width: 99%;
+  height: 100%;
+}
+
+.carousel-inner {
+  width: 1100px;
+  height: 300px;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  margin-left: 120px;
+}
+
+.carousel-control-prev-icon {
+  margin-left: 120px;
+}
+
+.carousel-control-next-icon {
+  margin-right: 120px;
+}
+
+.d-block {
+  width: 500px;
+  height: 300px;
+}
+
+.texto {
+  font-size: 20px !important;
+  color: rgb(8, 28, 159);
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.img-sect-main {
+  width: 300px !important;
+  height: 240px !important;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.article {
+  background: linear-gradient(292deg, rgba(7, 104, 247, 0.5689873361) 4%, rgba(196, 7, 247, 0.6502198291) 8%, rgba(236, 242, 79, 0.793076972) 31%, rgba(231, 107, 107, 0.9079229104) 46%, rgba(30, 225, 240, 0.9051217899) 55%, rgba(122, 240, 98, 0.7706680084) 69%, rgba(220, 30, 240, 0.6502198291) 94%, rgba(240, 30, 30, 0.5913962997) 97%);
+  width: 440px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img-art {
+  width: 300px !important;
+  height: 229px !important;
+  margin-bottom: 10px;
+}
+
+#footer {
+  height: 5vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#007991), to(#63d1b0));
+  background: linear-gradient(180deg, #007991, #63d1b0);
+}
+
+.redes-sociales {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+}
+
+.breadcrumb-item {
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+li.breadcrumb-item.active {
+  color: rgb(253, 252, 253);
+}
+
+.h2-main {
+  color: #610C63;
+  margin-top: 10px;
+}
+
+.texto-qs {
+  font-size: 15px;
+  color: rgb(8, 28, 159) !important;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.li-quienes-s {
+  font-size: 15px;
+}
+
+.video-qs {
+  width: 400px;
+  height: 400px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 80px;
+}
+
+#main {
+  width: 99%;
+  height: 100%;
+}
+
+.tarjeta {
+  margin-top: 10px;
+}
+
+.card {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+.card .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card .front {
+  -webkit-transform: perspective(400px) rotateY(0deg);
+          transform: perspective(400px) rotateY(0deg);
+  -webkit-box-shadow: 0 5px 10px #000;
+          box-shadow: 0 5px 10px #000;
+}
+
+.card .front img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card .front h3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #f3f3f3;
+  font-size: 18px;
+  text-align: center;
+  height: 15px;
+  line-height: 15px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.card .back {
+  -webkit-transform: perspective(400px) rotateY(180deg);
+          transform: perspective(400px) rotateY(180deg);
+  color: #f3f3f3;
+  font-size: 20px;
+  text-align: center;
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0 5px 10px #000;
+          box-shadow: 0 5px 10px #000;
+}
+
+.card .back .link {
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 20px;
+}
+
+.card .back .link a {
+  font-size: 15px !important;
+  color: #f3f3f3 !important;
+}
+
+.card .back h3 {
+  font-size: 20px !important;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+.card .back ul {
+  font-size: 18px !important;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.card .back ul li {
+  text-align: justify;
+  margin-left: 0;
+}
+
+.card:hover .front {
+  -webkit-transform: perspective(400px) rotateY(180deg);
+          transform: perspective(400px) rotateY(180deg);
+}
+
+.card:hover .back {
+  -webkit-transform: perspective(400px) rotateY(360deg);
+          transform: perspective(400px) rotateY(360deg);
+}
+
+.h2-main {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.texto-donativos {
+  font-size: 20px;
+  color: rgb(8, 28, 159);
+  margin-left: 20px;
+}
+
+.h3-deposito {
+  color: rgb(248, 52, 3);
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 220px;
+}
+
+#texto-deposito, #texto-deposito3, #texto-deposito2 {
+  color: #000;
+  font-size: 15px;
+  font-weight: 900;
+  margin-left: 300px;
+}
+
+#numero-deposito, #numero-deposito2 {
+  color: rgb(23, 7, 252);
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 250px;
+}
+
+#texto-deposito2 {
+  margin-left: 200px;
+}
+
+#texto-deposito3 {
+  font-weight: 900;
+  margin-left: 100px;
+}
+
+#numero-deposito2 {
+  color: rgb(23, 7, 252);
+}
+
+#img-deposito {
+  width: 430px;
+  height: 430px;
+  margin-top: 30px;
+}
+
+/* inicia pagína Contacto */
+#form {
+  margin-left: 50px;
+}
+
+#comentario {
+  margin-top: 50px;
+}
+
+.acuerdo {
+  margin-bottom: 20px;
+}
+
+.mapa {
+  margin-top: 40px;
+}

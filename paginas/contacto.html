@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacto directo o por nuestras redes sociales">
+    <meta name="keywords" content="albergue, perros, Asosiación, fundación">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="shortcut icon" href="./assets/imagenes/logo1.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Asosiación Colitas Felices</title>
+</head>
+<body>  
+<!-- inicia header -->
+<header class="container-flow" id="header">
+    <div class="row" id="header">
+      <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
+        <a href="./index.html">
+          <img src="../assets/imagenes/logo1.png" alt="logo" id="img-logo">
+        </a>
+      </div>
+      <div class="col-8 col-sm-8 col-md-8 col-lg-3 col-xl-3 col-xxl-3">
+        <h1 class="text-dark" id="titulo"> Asosiación Colitas Felices</h1>
+      </div>
+      <!-- inicia menu -->
+      <div class="col-3 col-sm-3 col-md-3 col-lg-8 col-xl-8 col-xxl-8">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" id="menu">
+                  <li class="nav-item">
+                    <a class="nav-link"  href="../index.html" >INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="../paginas/quienes-somos.html">¿QUIÉNES SOMOS?</a>
+                    </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        PERRITOS EN ADOPCIÓN
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../paginas/Perritos-en-adopcion.html">PERRITOS EN ADOPCIÓN</a></li>
+                      <li><a class="dropdown-item" href="../paginas/requisitos_administrativos.html">REQUISITOS ADMINISTRATIVOS</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/donativos.html">DONATIVOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../paginas/contacto.html">CONTACTO</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+    <!-- inicia main -->
+<main>
+    <div> <h2 class="h2-main">Contacto</h2></div>
+    <form class="row g-3" id="form">
+        <div class="col-md-4 texto-formulario">
+          <label for="validationServer01" class="form-label"></label>
+          <input type="text" class="form-control is-valid" id="validationServer01" value="Nombre" required>
+        </div>
+        <div class="col-md-4 texto-formulario">
+          <label for="validationServer02" class="form-label">   </label>
+          <input type="text" class="form-control is-valid" id="validationServer02" value="Apellido" required>
+        </div>
+        <div class="col-md-6 texto-formulario">
+            <label for="validationCustom03" class="form-label"></label>
+            <input type="email" class="form-control" id="validationCustom03" value="nombre@ejemplo.com" required>
+           <div class="mb-3 texto-formulario">
+            <label for="exampleFormControlTextarea1" class="form-label" id="comentario">Comentarios</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        <div class="col-12 texto-formulario">
+          <div class="form-check">
+            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+            <label class="form-check-label" for="invalidCheck3">
+                Acepto los términos y condiciones
+              </label>
+            <div id="invalidCheck3Feedback" class="invalid-feedback acuerdo">
+                Debe estar de acuerdo antes de enviar.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+       </form>
+       <div class="col mapa">
+       <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.153351556406!2d-98.13162938428334!3d19.44895400938457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d01f64621ac445%3A0xf6275bf0140abd79!2sCalle%20Principal%201%2C%20Primera%20Secc%2C%2090430%20San%20Bartolom%C3%A9%20Matlalohcan%2C%20Tlax.!5e0!3m2!1ses-419!2smx!4v1661539868385!5m2!1ses-419!2smx"
+      width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade" class="mapa-contacto">
+    </iframe>
+</div>
+</main>
+
+   <!-- inicia footer -->
+<footer class="container-flow" id="footer">
+ 
+    <a href="https://www.tiktok.com/@colitas_felices_apizaco?_t=8V90RGhq6bd&_r=1" target="_blank">
+      <img src="../assets/imagenes/icons8-tik-tok-48.png" alt="logo facebook" class="redes-sociales rounded float-end">
+    </a>
+    <a href="https://www.instagram.com/invites/contact/?i=6zdwkdetghyw&utm_content=6elbxku" target="_blank">
+      <img src="../assets/imagenes/icons8-instagram-48.png" alt="instagram" class="redes-sociales rounded float-end">
+    </a>
+    <img src="../assets/imagenes/icons8-whatsapp-48.png" alt="whatsapp" class="redes-sociales rounded float-end">
+    <a href="https://web.facebook.com/ColitasFelicesApizaco" target="_blank">
+      <img src="../assets/imagenes/icons8-facebook-rodeado-de-círculo-48.png" alt="Tiktok" class="redes-sociales rounded float-end">
+    </a>
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html">INICIO</a></li>
+        <li class="breadcrumb-item active" aria-current="page">CONTACTO</li>
+      </ol>
+    </nav>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+</script>
+</body>

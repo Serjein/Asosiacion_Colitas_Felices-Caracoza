@@ -1,0 +1,14 @@
+@mixin main {
+    width: 99%;
+    height: 100%;
+}
+
+@mixin card {
+    width: 100%;
+    height: 100%;
+}
+@mixin front_back ($color,$font-size){
+    color: $color;
+    font-size: $font-size;
+    text-align: center;
+}

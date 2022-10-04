@@ -1,0 +1,37 @@
+#header{
+    width: 100%;
+    height: 15vh;
+    background: linear-gradient(180deg, #007991, #63d1b0);
+    .row{
+        div{
+            a{
+                #img-logo{
+                    margin-top: 10px !important;
+                    width: 70px !important;
+                    height: 70px !important;
+                }
+            }
+        }
+   div{
+    #titulo{
+        font-size: map-get($medidas-font-size, "titulo") !important;
+        color:map-get($paleta-color, "titulo") !important;
+        margin-top: 25px;
+    }
+   }
+ }
+ .navbar{
+    font-size: map-get($medidas-font-size, "menu") !important;
+    margin-top: 48px !important;
+    margin-left: 150px !important;
+ }
+ a.nav-link{
+    color: rgb(133, 8, 122);
+ }
+ a.nav-link.active {
+    color: rgb(253, 252, 253);
+ }
+}
+.dropdown-item{
+    color: rgb(133, 8, 122);
+}
