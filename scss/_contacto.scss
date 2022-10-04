@@ -1,5 +1,9 @@
 /* inicia pagína Contacto */
 
+.subtitulo {
+    @include subtitulo;
+}
+
 #form {
     margin-left: 50px;
 }

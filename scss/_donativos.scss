@@ -1,5 +1,5 @@
-.h2-main {
-    margin-top: 10px;
+.subtitulo {
+    @include subtitulo;
     margin-bottom: 20px;
     margin-left: 10px;
 }

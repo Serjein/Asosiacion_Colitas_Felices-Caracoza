@@ -1,6 +1,10 @@
 #main{
    @include main;
 }
+.subtitulo{
+   @include subtitulo;
+   margin-bottom: 20px;
+}
 .tarjeta{
     margin-top: 10px;
 }

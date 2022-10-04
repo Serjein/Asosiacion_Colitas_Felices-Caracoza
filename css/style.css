@@ -107,7 +107,7 @@ li.breadcrumb-item.active {
   color: rgb(253, 252, 253);
 }
 
-.h2-main {
+.subtitulo {
   color: #610C63;
   margin-top: 10px;
 }
@@ -134,6 +134,12 @@ li.breadcrumb-item.active {
 #main {
   width: 99%;
   height: 100%;
+}
+
+.subtitulo {
+  color: #610C63;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .tarjeta {
@@ -247,7 +253,8 @@ li.breadcrumb-item.active {
           transform: perspective(400px) rotateY(360deg);
 }
 
-.h2-main {
+.subtitulo {
+  color: #610C63;
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 10px;
@@ -302,6 +309,11 @@ li.breadcrumb-item.active {
 }
 
 /* inicia pagína Contacto */
+.subtitulo {
+  color: #610C63;
+  margin-top: 10px;
+}
+
 #form {
   margin-left: 50px;
 }
@@ -316,4 +328,14 @@ li.breadcrumb-item.active {
 
 .mapa {
   margin-top: 40px;
+}
+
+.subtitulo {
+  color: #610C63;
+  margin-top: 10px;
+}
+
+.requisitos {
+  color: rgb(8, 28, 159) !important;
+  margin-left: 5px;
 }

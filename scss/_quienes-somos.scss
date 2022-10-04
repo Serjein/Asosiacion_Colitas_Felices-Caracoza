@@ -1,6 +1,5 @@
-.h2-main {
-    color: #610C63;
-    margin-top: 10px;
+.subtitulo {
+    @include subtitulo;
 }
 
 .texto-qs {
