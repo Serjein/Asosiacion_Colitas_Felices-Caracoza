@@ -2,7 +2,7 @@
     @include subtitulo;
 }
 
-.texto-qs {
+.texto-quienes-somos{
     font-size: 15px;
     color: rgb(8, 28, 159) !important;
     margin-top: 20px;
@@ -11,6 +11,7 @@
 
 .li-quienes-s {
     font-size: 15px;
+    @extend .texto-quienes-somos
 }
 
 .video-qs {

@@ -112,7 +112,7 @@ li.breadcrumb-item.active {
   margin-top: 10px;
 }
 
-.texto-qs {
+.texto-quienes-somos, .li-quienes-s {
   font-size: 15px;
   color: rgb(8, 28, 159) !important;
   margin-top: 20px;
