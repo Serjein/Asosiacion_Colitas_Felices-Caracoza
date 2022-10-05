@@ -1,23 +1,38 @@
-.subtitulo {
-    @include subtitulo;
-}
+/* inicia pagína quienes somos */
 
-.texto-quienes-somos{
-    font-size: 15px;
-    color: rgb(8, 28, 159) !important;
-    margin-top: 20px;
-    margin-left: 0px;
-}
+.container {
+    margin-left: 0;
+    .subtitulo {
+        @include subtitulo;
+    }
 
-.li-quienes-s {
-    font-size: 15px;
-    @extend .texto-quienes-somos
-}
+    .row {
+        .texto-qs {
+            .texto-quienes-somos {
+                @include texto;
+                font-size: 15px;
+                color: rgb(8, 28, 159) !important;
+                margin-top: 20px;
+                margin-left: 10px;
+            }
 
-.video-qs {
-    width: 400px;
-    height: 400px;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    margin-left: 80px;
+            ul {
+                .li-quienes-s {
+                    @include texto;
+                    font-size: 15px;
+                    @extend .texto-quienes-somos
+                }
+            }
+        }
+
+        .vid-quienes-somos {
+            .video-qs {
+                width: 400px;
+                height: 400px;
+                margin-top: 20px;
+                margin-bottom: 5px;
+                margin-left: 80px;
+            }
+        }
+    }
 }

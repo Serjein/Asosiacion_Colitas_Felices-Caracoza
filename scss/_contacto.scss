@@ -1,20 +1,33 @@
 /* inicia pagína Contacto */
+main {
+    width: 99%;
 
-.subtitulo {
-    @include subtitulo;
-}
+    .subtitulo {
+        @include subtitulo;
+        margin-left: 20px;
+    }
 
-#form {
-    margin-left: 50px;
-}
+    #form {
+        @include texto;
+        margin-left: 50px;
 
-#comentario {
-    margin-top: 50px;
-}
+        .texto-formulario {
+            #comentario {
+                margin-top: 50px;
+            }
 
-.acuerdo {
-    margin-bottom: 20px;
-}
-.mapa {
-    margin-top: 40px;
+            #exampleFormControlTextarea1 {
+                width: 640px;
+            }
+        }
+
+        .acuerdo {
+            margin-bottom: 20px;
+        }
+    }
+
+    .mapa {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
 }

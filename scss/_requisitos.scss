@@ -1,8 +1,11 @@
-.subtitulo {
-    @include subtitulo;
-}
-.requisitos {
-    
-    color: rgb(8, 28, 159) !important;
-   margin-left: 5px;
+/* inicia página requisitos*/
+main {
+    .requisitos {
+        color: rgb(8, 28, 159) !important;
+        margin-left: 5px;
+
+        .subtitulo {
+            @include subtitulo;
+        }
+    }
 }
