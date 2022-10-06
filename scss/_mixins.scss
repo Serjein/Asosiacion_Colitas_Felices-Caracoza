@@ -19,3 +19,8 @@
     font-size: $font-size;
     text-align: center;
 }
+@mixin desktop (){
+    @media screen and (max-width: 1200px){
+        @content
+    }
+}
