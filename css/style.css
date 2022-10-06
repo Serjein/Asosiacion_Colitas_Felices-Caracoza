@@ -333,8 +333,9 @@ main .mapa {
 
 /* inicia página requisitos*/
 main .requisitos {
+  font-family: futura;
   color: rgb(8, 28, 159) !important;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 main .requisitos .subtitulo {
   font-family: futura;
