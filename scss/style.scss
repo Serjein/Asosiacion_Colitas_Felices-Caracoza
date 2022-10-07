@@ -10,3 +10,48 @@
 @import "./contacto";
 @import "./requisitos";
 
+
+@include desktop{
+    #titulo{
+        font-size: map-get($medidas-font-size, "titulo")-1 !important;
+        margin-top: 50px;
+    }
+    #menu{    
+    position: absolute;    
+    font-size: map-get($medidas-font-size, "menu")-1 !important;
+    margin-top: 10px !important;
+    margin-left: 5px !important;
+    text-align: center;
+}
+.carousel-inner{
+    width: 1179px !important;
+    height: 300px;
+    margin-left: 1px !important;
+}
+.texto {
+    font-size: 30px !important;
+    text-align: center;
+}
+.img-sect-main {
+    width: 300px !important;
+    height: 300px !important;
+}
+.article{
+    width: 325px !important;
+}
+#img_art {
+    width: 250px !important;
+    height: 229px !important;
+}
+
+.texto-qs {
+    font-size: 30px;
+    
+}
+.video-qs{
+    width: 300px;
+    height: 300px;
+}
+
+}
+

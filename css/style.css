@@ -10,8 +10,13 @@
 }
 #header .row div a #img-logo {
   margin-top: 10px !important;
-  width: 70px !important;
-  height: 70px !important;
+  width: 90px !important;
+  height: 90px !important;
+}
+@media screen and (max-width: 1200px) {
+  #header .row div a #img-logo {
+    margin-top: 80px;
+  }
 }
 #header .row div #titulo {
   font-family: futura;
@@ -101,9 +106,12 @@
 }
 #footer nav .breadcrumb .breadcrumb-item {
   font-family: futura;
-  font-size: 15px;
+  font-size: 10px;
   margin-top: 5px;
   margin-left: 5px;
+}
+#footer nav .breadcrumb a {
+  color: #4b044d !important;
 }
 #footer nav .breadcrumb li.breadcrumb-item.active {
   color: rgb(253, 252, 253);
@@ -341,4 +349,53 @@ main .requisitos .subtitulo {
   font-family: futura;
   color: #610C63;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  #titulo {
+    font-size: 25px !important;
+    margin-top: 50px;
+  }
+
+  #menu {
+    position: absolute;
+    font-size: 14px !important;
+    margin-top: 10px !important;
+    margin-left: 5px !important;
+    text-align: center;
+  }
+
+  .carousel-inner {
+    width: 1179px !important;
+    height: 300px;
+    margin-left: 1px !important;
+  }
+
+  .texto {
+    font-size: 30px !important;
+    text-align: center;
+  }
+
+  .img-sect-main {
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  .article {
+    width: 325px !important;
+  }
+
+  #img_art {
+    width: 250px !important;
+    height: 229px !important;
+  }
+
+  .texto-qs {
+    font-size: 30px;
+  }
+
+  .video-qs {
+    width: 300px;
+    height: 300px;
+  }
 }
