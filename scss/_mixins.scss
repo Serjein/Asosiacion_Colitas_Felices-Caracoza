@@ -19,5 +19,13 @@
     font-size: $font-size;
     text-align: center;
 }
+<<<<<<< HEAD
 
 
+=======
+@mixin desktop (){
+    @media screen and (max-width: 1200px){
+        @content
+    }
+}
+>>>>>>> medias

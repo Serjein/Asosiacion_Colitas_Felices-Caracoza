@@ -6,8 +6,11 @@
             a{
                 #img-logo{
                     margin-top: 10px !important;
-                    width: 70px !important;
-                    height: 70px !important;
+                    width: 90px !important;
+                    height: 90px !important;
+                    @include desktop{
+                        margin-top: 80px;
+                    }
                 }
             }
         }
@@ -17,7 +20,12 @@
         font-size: map-get($medidas-font-size, "titulo") !important;
         color:map-get($paleta-color, "titulo") !important;
         margin-top: 25px;
+<<<<<<< HEAD
        }
+=======
+      
+    }
+>>>>>>> medias
     }
  }
  .navbar{
@@ -25,7 +33,7 @@
     font-size: map-get($medidas-font-size, "menu") !important;
     margin-top: 48px !important;
     margin-left: 150px !important;
- }
+}
  a.nav-link{
     color: rgb(133, 8, 122);
  }

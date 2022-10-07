@@ -15,11 +15,13 @@
         .breadcrumb {
             .breadcrumb-item {
                 @include texto;
-                font-size: 15px;
-                margin-top: 5px;
+                font-size: 10px;
+             margin-top: 5px;
                 margin-left: 5px;
             }
-
+a{
+    color: #4b044d !important;
+}
             li.breadcrumb-item.active {
                 color: rgb(253, 252, 253);
             }
